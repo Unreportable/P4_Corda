@@ -49,7 +49,10 @@ Gradle and SpringBoot should be installed.
 
 For deploying you have to follow this steps:
 1) Download all files from github repository
+
 2) From Gradle make tasks following this order: clean-build-jar-deployNodes 
+
 3) Run runnodes.but and wait for all nodes to be deployed
+
 4)Change Program arguements for required node as it was shown in the example before (you can check nodes ports from recently opened corda terminals)
 
