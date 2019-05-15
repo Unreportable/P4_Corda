@@ -1,0 +1,39 @@
+[INFO ] 2019-05-15T08:08:36,333 [main] Starter - Starting Starter on DESKTOP-1S83FO1 with PID 11296 (C:\Users\maksu\Desktop\corda-project-master\clients\out\production\classes started by maksu in C:\Users\maksu\Desktop\corda-project-master)
+[INFO ] 2019-05-15T08:08:36,401 [main] Starter - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-15T08:08:36,488 [main] AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56303475: startup date [Wed May 15 11:08:36 MSK 2019]; root of context hierarchy
+[INFO ] 2019-05-15T08:08:37,983 [main] TomcatWebServer - Tomcat initialized with port(s): 10050 (http)
+[INFO ] 2019-05-15T08:08:38,002 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10050"]
+[INFO ] 2019-05-15T08:08:38,018 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-05-15T08:08:38,019 [main] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+[INFO ] 2019-05-15T08:08:38,025 [localhost-startStop-1] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Anaconda2;C:\ProgramData\Anaconda2\Library\mingw-w64\bin;C:\ProgramData\Anaconda2\Library\usr\bin;C:\ProgramData\Anaconda2\Library\bin;C:\ProgramData\Anaconda2\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Python27;C:\Python27\Scripts;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\maven\apache-maven-3.6.0\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\gradle\gradle-5.3.1\bin;C:\Users\maksu\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\maksu\AppData\Local\Programs\Python\Python36\;C:\Users\maksu\AppData\Local\Microsoft\WindowsApps;C:\Python27\Scripts;C:\Python27;C:\Users\maksu\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\bin;;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\maven\apache-maven-3.6.0\bin;C:\Users\maksu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\maksu\AppData\Roaming\npm;C:\Program Files\Java\gradle\gradle-5.3.1\bin;;.]
+[INFO ] 2019-05-15T08:08:38,211 [localhost-startStop-1] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-05-15T08:08:38,211 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 1723 ms
+[INFO ] 2019-05-15T08:08:38,413 [localhost-startStop-1] ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[INFO ] 2019-05-15T08:08:38,421 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2019-05-15T08:08:38,421 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2019-05-15T08:08:38,421 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2019-05-15T08:08:38,422 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2019-05-15T08:08:41,113 [main] RPCClient - Startup took 2219 msec
+[INFO ] 2019-05-15T08:08:41,231 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-05-15T08:08:41,520 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56303475: startup date [Wed May 15 11:08:36 MSK 2019]; root of context hierarchy
+[INFO ] 2019-05-15T08:08:41,598 [main] RequestMappingHandlerMapping - Mapped "{[/gradeWork],methods=[GET],produces=[text/plain]}" onto private java.lang.String com.template.webserver.Controller.templateendpoint(java.lang.String,java.lang.String,java.lang.String,long) throws java.util.concurrent.ExecutionException,java.lang.InterruptedException
+[INFO ] 2019-05-15T08:08:41,600 [main] RequestMappingHandlerMapping - Mapped "{[/getGrades],methods=[GET]}" onto private java.lang.String com.template.webserver.Controller.getGrades()
+[INFO ] 2019-05-15T08:08:41,602 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2019-05-15T08:08:41,603 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2019-05-15T08:08:41,644 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-05-15T08:08:41,645 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-05-15T08:08:41,706 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 2019-05-15T08:08:41,962 [main] AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[INFO ] 2019-05-15T08:08:41,991 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-10050"]
+[INFO ] 2019-05-15T08:08:41,994 [main] NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2019-05-15T08:08:42,012 [main] TomcatWebServer - Tomcat started on port(s): 10050 (http) with context path ''
+[INFO ] 2019-05-15T08:08:42,016 [main] Starter - Started Starter in 7.708 seconds (JVM running for 10.33)
+[INFO ] 2019-05-15T08:08:45,734 [http-nio-10050-exec-1] [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2019-05-15T08:08:45,734 [http-nio-10050-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2019-05-15T08:08:45,764 [http-nio-10050-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+[ERROR] 2019-05-15T08:08:59,275 [http-nio-10050-exec-5] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.concurrent.ExecutionException: net.corda.core.CordaRuntimeException: Only specific professor can grade students] with root cause
+net.corda.core.CordaRuntimeException: Only specific professor can grade students
+[ERROR] 2019-05-15T08:11:05,069 [http-nio-10050-exec-7] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.concurrent.ExecutionException: net.corda.core.CordaRuntimeException: Only specific professor can grade students] with root cause
+net.corda.core.CordaRuntimeException: Only specific professor can grade students
+[ERROR] 2019-05-15T08:11:07,670 [http-nio-10050-exec-8] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.concurrent.ExecutionException: net.corda.core.CordaRuntimeException: Only specific professor can grade students] with root cause
+net.corda.core.CordaRuntimeException: Only specific professor can grade students
